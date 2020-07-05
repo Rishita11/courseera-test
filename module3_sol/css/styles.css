@@ -1,3 +1,5 @@
+/* Base Styles */
+
 * {
 	box-sizing: border-box;
 }
@@ -8,8 +10,8 @@ h1 {
 }
 
 body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+	
+	background-color: #990012;
 
 }
 
@@ -29,7 +31,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color:#C24641;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -38,7 +40,7 @@ section {
 	overflow: auto;
 }
 
-#chicken {
+#hilsha {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -49,10 +51,11 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: black;
+	color: #FFFF00;
 }
 
-#beef {
+#biryani {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -63,10 +66,11 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+	background-color: black;
+	color: #FFFF00;
 }
 
-#sushi {
+#chingri {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -76,22 +80,22 @@ section {
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
+	background-color: black;
+	color: #FFFF00;
 	padding: 5px;
 }
 
-#chicken-div {
+#hilsha-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#beef-div {
+#biryani-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#sushi-div {
+#chingri-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -104,12 +108,12 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: black;
   color: #FFFFFF;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid red;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
